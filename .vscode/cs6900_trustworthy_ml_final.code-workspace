@@ -3,5 +3,24 @@
 		{
 			"path": ".."
 		}
-	]
+	],
+	"settings": {
+		"python.defaultInterpreterPath": "~/anaconda3/envs/trustworthy_ml/bin/python"
+	},
+	"launch":{
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "(Python): attack script",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/attack.py",
+				"console": "internalConsole",
+				"cwd": "${workspaceFolder}",
+				//"args": [""],
+				"args":[],
+				"justMyCode": false
+			},
+        ]
+    }
 }
