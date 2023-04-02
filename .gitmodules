@@ -1,0 +1,6 @@
+[submodule "ONCE_Benchmark"]
+	path = ONCE_Benchmark
+	url = https://github.com/PointsCoder/ONCE_Benchmark.git
+[submodule "code/spconv"]
+	path = code/spconv
+	url = https://github.com/traveller59/spconv.git
