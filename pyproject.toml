@@ -1,0 +1,24 @@
+
+[tool.poetry]
+
+name = "Final-Project-CS-6900"
+version = "0.0.1"  # Required
+
+description = "Final Project for CS 6900: Trustworthy Machine Learning"  # Optional
+
+readme = "README.md" # Optional
+
+authors = [
+  "Ryan Arnold <arnold.227@wright.edu>" # Optional
+]
+
+packages = [{include = "final_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+# These are the assumed default build requirements from pip:
+# https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
