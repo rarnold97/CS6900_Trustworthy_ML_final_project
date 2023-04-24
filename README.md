@@ -28,6 +28,9 @@ I did all of my development in WSL2 Ubuntu 18, using an anaconda environment wit
 
 For a more in-depth guide on how to setup CUDA to effectively work with WSL2, Refer to [pytorch_with_CUDA_wsl.md](./pytorch_with_CUDA_wsl.md)
 
+Once all the external dependencies are properly installed, you can install the libs from anaconda with the following:
+`$ conda env create -f environment.yml`
+
 # (Optional) Install the final project to your environment
 
 I provided a [pyproject.toml](./pyproject.toml) poetry file to allow developers to
